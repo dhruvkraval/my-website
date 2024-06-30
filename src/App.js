@@ -83,9 +83,6 @@ function App() {
                 <a href="https://github.com/dhruvkraval" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-twitter"></i>
-                </a>
                 <a href="https://www.linkedin.com/in/username/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin"></i>
                 </a>
