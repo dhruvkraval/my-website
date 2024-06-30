@@ -14,13 +14,13 @@ const experiences = [
       {
         title: 'Software Engineering Intern III',
         dateRange: 'June 2024 — Present',
-        description: `Pioneered the company’s first Retrieval Augmented Generation (RAG) LLM efforts by fine-tuning a locally-hosted Llama-2 model.`,
+        description: `Spearheaded company-first projects including the development of an RAG LLM chatbot for internal documentation and a secure data pipeline.`,
         skills: ['Python', '.NET', 'RESTful API', 'Apache HDFS', 'RAG'],
       },
       {
         title: 'Software Engineering Intern II',
         dateRange: 'June 2023 — June 2024',
-        description: `Pioneered the company’s first Retrieval Augmented Generation (RAG) LLM efforts by fine-tuning a locally-hosted Llama-2 model.`,
+        description: `Worked on a research and development API to save engineering hours on tester work.`,
         skills: ['.NET', 'RESTful API', 'Apache HDFS'],
       },
     ],
@@ -75,9 +75,9 @@ function App() {
           <div className="profile">
             <div className="profile-text">
               <h1>Dhruv Raval</h1>
-              <p>CS + Economics @ University of Illinois at Urbana-Champaign</p>
+              <p>CS + Economics @ <span className="orange-text">University of Illinois at Urbana-Champaign</span></p>
               <div className="social-icons">
-                <a href="mailto:example@example.com">
+                <a href="mailto:contact@dhruvraval.com">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="https://github.com/dhruvkraval" target="_blank" rel="noopener noreferrer">
@@ -90,19 +90,21 @@ function App() {
             </div>
             <img src={portrait} alt="Self Portrait" className="profile-picture" />
           </div>
-          <p>Hello!</p>
-          <br></br>
-          <p>
-            My name is Dhruv, and I'm a Computer Science + Economics student at UIUC with a 4.0 GPA, graduating in May 2025 with an intention to pursue a Masters in Computer Science.
-          </p>
-          <br></br>
-          <p>
-            I'm passionate about AI and have experience with full-stack development professionally, where I work at Honeywell and academically, where I am the Head of Technology and lead 100+ SWEs at the Gies College of Business' Disruption Lab.
-          </p>
-          <br></br>
-          <p>I'm excited for any opportunities to grow professionally and apply my technical skills. Please reach out with any opportunities!</p>
-          <br></br>
-          <p>Take a look at my full resume here. Send me an email here.</p>
+          <div class="intro-text">
+            <p>Hey! I'm Dhruv</p>
+            <br></br>
+            <p>
+              I'm a Computer Science + Economics student at UIUC with a 4.0 GPA, graduating in May 2025 with an intention to pursue a Masters in Computer Science.
+            </p>
+            <br></br>
+            <p>
+              I'm passionate about AI and have experience with full-stack development professionally, where I work at Honeywell and academically, where I am the Head of Technology and lead 100+ SWEs at the Gies College of Business' Disruption Lab.
+            </p>
+            <br></br>
+            <p>I'm excited for any opportunities to grow professionally and apply my technical skills. Please reach out with any opportunities!</p>
+            <br></br>
+            Take a look at my full resume <a href="https://drive.google.com/file/d/1zZ8bLxz6RXVOO1PwUKX9xqovAQwug59Q/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>. Send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>.
+          </div>
           <br></br>
           <hr></hr>
           <div className="experience">
@@ -116,14 +118,14 @@ function App() {
           <hr></hr>
           <div className="projects">
             <h2>Projects</h2>
-            <br></br>
             {projects.map((project, index) => (
               <ProjectCard key={index} title={project.title} description={project.description} />
             ))}
           </div>
           <hr></hr>
           <div className="contact">
-            <p>Contact me pls</p>
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me by email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a> or connect with me on <a href="https://www.linkedin.com/in/dhruv-raval-/">LinkedIn.</a></p>
           </div>
         </div>
         

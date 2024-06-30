@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
 .project-card {
     background-color: #edebe6;
     border-radius: 8px;
@@ -26,4 +29,15 @@
   .project-card p {
     margin: 0;
     font-size: 0.9em;
+  }
+  
+  .description{
+    padding-left:20px;
+    font-family: "Source Code Pro";
+    color:#606060;
+  }
+
+  #button{
+    color:#606060;
+    font-size:17px;
   }

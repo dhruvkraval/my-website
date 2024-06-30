@@ -12,9 +12,9 @@ const ProjectCard = ({ title, description }) => {
     <div className="project-card">
       <div className="project-header" onClick={toggleOpen}>
         <h3>{title}</h3>
-        <span>{isOpen ? '-' : '+'}</span>
+        <span id="button">{isOpen ? '-' : '+'}</span>
       </div>
-      {isOpen && <p>{description}</p>}
+      {isOpen && <p class="description">{description}</p>}
     </div>
   );
 };

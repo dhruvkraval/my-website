@@ -12,7 +12,7 @@ const DropdownCard = ({ title, children }) => {
     <div className="dropdown-card">
       <div className="dropdown-card-header" onClick={toggleOpen}>
         <h3>{title}</h3>
-        <span>{isOpen ? '-' : '+'}</span>
+        <span id="openButton">{isOpen ? '-' : '+'}</span>
       </div>
       {isOpen && <div className="dropdown-card-content">{children}</div>}
     </div>

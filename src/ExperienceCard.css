@@ -1,11 +1,12 @@
 /* ExperienceCard.css */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 .experience-card {
     background-color: #edebe6;
     border-radius: 8px;
     padding: 2px;
     margin-bottom: 0px;
-    color: #000;
+    color: #606060;
   }
   
   .experience-card h3 {
@@ -55,4 +56,13 @@
     margin: 5px 5px 0 0;
     font-size: 0.7em;
     color: #fff;
+  }
+
+  .date{
+    font-family:'Source Code Pro';
+  }
+
+  .skill{
+    font-family:'Source Code Pro';
+    background-color:#606060;
   }
