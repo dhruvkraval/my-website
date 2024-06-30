@@ -1,38 +1,92 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #edebe6;
+  padding-top: 100px; /* Add some padding to the top of the entire app */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #edebe6;
+}
+
+.profile {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-info {
+  flex: 1; /* Allow profile info to take available space */
+  margin-right: 20px; /* Add some space between the info and the image */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.profile p {
+  margin: 10px 0;
+}
+
+.profile-picture {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 50%;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.social-icons a:hover {
+  color: #0073e6;
+}
+
+.work, .writings {
+  margin-top: 20px;
+}
+
+.work h2, .writings h2 {
+  font-size: 1.5em;
+}
+
+.work ul, .writings ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work li, .writings li {
+  margin: 5px 0;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: none;
+  background-image: linear-gradient(to right, #000 50%, rgba(255, 0, 0, 0) 0%);
+  background-position: top left;
+  background-size: 10px 1px; /* Adjust the size: 10px is the spacing between dots */
+  background-repeat: repeat-x;
+  margin: 20px auto; /* Center the hr element */
+}
+
+footer {
+  background-color: #edebe6;
+  text-align: center;
+  padding: 10px 0;
 }

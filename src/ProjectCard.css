@@ -1,0 +1,29 @@
+.project-card {
+    background-color: #edebe6;
+    border-radius: 8px;
+    padding: 0px;
+    margin-bottom: 20px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .project-header h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .project-header span {
+    font-size: 1.2em;
+  }
+  
+  .project-card p {
+    margin: 0;
+    font-size: 1em;
+  }

@@ -1,0 +1,58 @@
+/* ExperienceCard.css */
+
+.experience-card {
+    background-color: #edebe6;
+    border-radius: 8px;
+    padding: 2px;
+    margin-bottom: 0px;
+    color: #000;
+  }
+  
+  .experience-card h3 {
+    font-size: 1.2em; /* Larger font size for company name */
+    margin-bottom: 10px;
+  }
+  
+  .position {
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 20px; /* Indent the positions */
+  }
+  
+  .position-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .position-header h4 {
+    margin: 0;
+    font-size: 1.1em; /* Smaller font size for position titles */
+    font-weight: normal; /* Make the position titles unbolded */
+  }
+
+  .experience-card p {
+    margin: 0;
+    font-size: 0.9em; /* Smaller font size for position titles */
+    font-weight: normal; /* Make the position titles unbolded */
+  }
+  
+  .position-header span {
+    font-size: 0.9em;
+    color: #a9a9a9;
+  }
+  
+  .skills {
+    margin-top: 10px;
+  }
+  
+  .skill {
+    display: inline-block;
+    background-color: #333;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    font-size: 0.7em;
+    color: #fff;
+  }

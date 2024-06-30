@@ -1,0 +1,19 @@
+/* DropdownCard.css */
+
+.dropdown-card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .dropdown-card-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-card-header h3 {
+    margin: 0;
+  }
+  
