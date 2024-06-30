@@ -75,7 +75,7 @@ function App() {
           <div className="profile">
             <div className="profile-text">
               <h1>Dhruv Raval</h1>
-              <p>CS + Economics @ University of Illinois at Urbana-Champaign</p>
+              <p>CS + Economics @ University of Illinois at Urbana-Champaign test</p>
               <div className="social-icons">
                 <a href="mailto:example@example.com">
                   <i className="fas fa-envelope"></i>
