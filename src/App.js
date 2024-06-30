@@ -80,7 +80,7 @@ function App() {
                 <a href="mailto:example@example.com">
                   <i className="fas fa-envelope"></i>
                 </a>
-                <a href="https://github.com/dhrfuvkraval" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/dhruvkraval" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github"></i>
                 </a>
                 <a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer">
