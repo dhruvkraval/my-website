@@ -14,13 +14,13 @@ const experiences = [
       {
         title: 'Software Engineering Intern III',
         dateRange: 'June 2024 — Present',
-        description: `Spearheaded company-first projects including the development of an RAG LLM chatbot for internal documentation and a secure data pipeline.`,
+        description: `Spearheaded multiple company-first projects including the development of a RAG LLM chatbot for internal documentation and the creation of a secure data pipeline API from Apache HDFS.`,
         skills: ['Python', '.NET', 'RESTful API', 'Apache HDFS', 'RAG'],
       },
       {
         title: 'Software Engineering Intern II',
         dateRange: 'June 2023 — June 2024',
-        description: `Worked on a research and development API to save engineering hours on tester work.`,
+        description: `Automated a process by developing the backend and middleware for an internal software product, reducing engineer data retreival time by upwards of 90%. `,
         skills: ['.NET', 'RESTful API', 'Apache HDFS'],
       },
     ],
@@ -54,15 +54,15 @@ const experiences = [
 const projects = [
   {
     title: 'Polar Chefs',
-    description: 'In my freshman year of high school (2018), I founded a subscription sneaker business that reached $250,000 in revenue, had 1770+ paid users, and over 50k Instagram followers at time of sale. I sold that company in 2021.',
+    description: 'In my freshman year of high school (2018), I founded a subscription sneaker business that reached $275,000 in revenue, had 1770+ paid users, and over 50k Instagram followers. I sold the company in 2021.',
   },
   {
     title: 'Safety Scan',
-    description: 'Created an OpenCV computer vision object recognition model tracking safety equipment usage in manufacturing environments that raise $21,000 in non-dilutive funding.',
+    description: 'I worked with a team to create an MVP computer vision object recognition model that tracked safety equipment usage in manufacturing environments. The project raised $21,000 in non-dilutive funding.',
   },
   {
     title: 'Iowa State Hackathon Project',
-    description: 'Utilized Node.js and implemented the OpenAI API and a depth-first search algorithm to create learning maps and summarized video notes. Won 2nd place out of 50 contestants.',
+    description: 'My friends and I made an AI learning app for the HackIowaState Hackathon and won 2nd place out of 50 teams. We used Node.js and implemented the OpenAI API and a depth-first search algorithm to create learning maps and summarized video notes.',
   },
   // Add more projects as needed
 ];
@@ -91,19 +91,21 @@ function App() {
             <img src={portrait} alt="Self Portrait" className="profile-picture" />
           </div>
           <div class="intro-text">
-            <p>Hey! I'm Dhruv</p>
+            <p>Hey! I'm Dhruv.</p>
             <br></br>
             <p>
-              I'm a Computer Science + Economics student at UIUC with a 4.0 GPA, graduating in May 2025 with an intention to pursue a Masters in Computer Science.
+              I'm a <strong>Computer Science + Economics</strong> student at UIUC with a 4.0 GPA, graduating in <strong>May 2025</strong> with an intention to pursue a Masters in Computer Science.
             </p>
             <br></br>
             <p>
-              I'm passionate about AI and have experience with full-stack development professionally, where I work at Honeywell and academically, where I am the Head of Technology and lead 100+ SWEs at the Gies College of Business' Disruption Lab.
+            I'm passionate about AI and full stack development, and I love opportunities to work on innovative and impactful projects.
             </p>
             <br></br>
-            <p>I'm excited for any opportunities to grow professionally and apply my technical skills. Please reach out with any opportunities!</p>
+            <p>Currently, I'm working as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I support Nuclear Weapons Programs and work on digitization and AI projects.</p>
             <br></br>
-            Take a look at my full resume <a href="https://drive.google.com/file/d/1zZ8bLxz6RXVOO1PwUKX9xqovAQwug59Q/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>. Send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>.
+            <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Head of Technology and now <strong>lead over 100 software engineers</strong> across 10 different software projects.</p>
+            <br></br>
+            Take a look at my full resume <a href="https://drive.google.com/file/d/1b9LeqtB_wWk3dMgbl2x28MyQwCkuReOS/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>. Send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>.
           </div>
           <br></br>
           <hr></hr>

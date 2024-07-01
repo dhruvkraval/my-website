@@ -7,7 +7,7 @@ const ExperienceCard = ({ company, positions }) => {
       {positions.map((position, index) => (
         <div key={index} className="position">
           <div className="position-header">
-            <h4><i>{position.title}</i></h4>
+            <h4 id="title"><i>{position.title}</i></h4>
             <span class="date">{position.dateRange}</span>
           </div>
           <p>{position.description}</p>
