@@ -31,7 +31,7 @@ const experiences = [
       {
         title: 'Head of Technology',
         dateRange: 'June 2024 - Present',
-        description: `Lead technical development for 10+ projects spanning AI, VR, and blockchain for clients including AMD while managing 100+ software engineers.`,
+        description: `Lead technical development for 3 projects spanning AI, VR, and blockchain for clients including the State of Illinois and AMD while managing 25+ software engineers.`,
         skills: ['Blockchain', 'VR', 'AI'],
       },
       {
@@ -103,9 +103,9 @@ function App() {
             <br></br>
             <p>Currently, I'm working as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I support Nuclear Weapons Programs and work on digitization and AI projects.</p>
             <br></br>
-            <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Head of Technology and now <strong>lead over 100 software engineers</strong> across 10 different software projects.</p>
+            <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Head of Technology and now <strong>lead over 25 software engineers</strong> across 3 different software projects.</p>
             <br></br>
-            Take a look at my full resume <a href="https://drive.google.com/file/d/1b9LeqtB_wWk3dMgbl2x28MyQwCkuReOS/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>. Send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>.
+            Take a look at my full resume <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>. Send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>.
           </div>
           <br></br>
           <hr></hr>
