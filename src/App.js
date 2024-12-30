@@ -37,7 +37,7 @@ const experiences = [
       {
         title: 'Head of Technology',
         dateRange: 'June 2024 - Dec 2024',
-        description: `Lead technical development for 3 projects spanning AI, VR, and blockchain for clients including the State of Illinois and AMD while managing 25+ software engineers.`,
+        description: `Led technical development for 3 projects spanning AI, VR, and blockchain for clients including the State of Illinois and AMD while managing 25+ software engineers.`,
         skills: ['Blockchain', 'VR', 'AI'],
       },
       {
