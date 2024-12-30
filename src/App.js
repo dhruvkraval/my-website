@@ -13,7 +13,7 @@ const experiences = [
     positions: [
       {
         title: 'Software Engineering Intern III',
-        dateRange: 'June 2024 — Present',
+        dateRange: 'June 2024 — August 2024',
         description: `Spearheaded multiple company-first projects including the development of a RAG LLM chatbot for internal documentation and the creation of a secure data pipeline API from Apache HDFS.`,
         skills: ['Python', '.NET', 'RESTful API', 'Apache HDFS', 'RAG'],
       },
@@ -29,8 +29,14 @@ const experiences = [
     company: 'Disruption Lab at Gies',
     positions: [
       {
+        title: 'Director',
+        dateRange: 'Dec 2024 - Present',
+        description: `Managing over 100 student SWEs across 12+ technical projects.`,
+        skills: ['Blockchain', 'VR', 'AI', 'Leadership'],
+      },
+      {
         title: 'Head of Technology',
-        dateRange: 'June 2024 - Present',
+        dateRange: 'June 2024 - Dec 2024',
         description: `Lead technical development for 3 projects spanning AI, VR, and blockchain for clients including the State of Illinois and AMD while managing 25+ software engineers.`,
         skills: ['Blockchain', 'VR', 'AI'],
       },
@@ -101,9 +107,9 @@ function App() {
             I'm passionate about AI and full stack development, and I love opportunities to work on innovative and impactful projects.
             </p>
             <br></br>
-            <p>Currently, I'm working as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I support Nuclear Weapons Programs and work on digitization and AI projects.</p>
+            <p>Previously, I worked as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I supported Nuclear Weapons Programs and worked on digitization and AI projects.</p>
             <br></br>
-            <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Head of Technology and now <strong>lead over 25 software engineers</strong> across 3 different software projects.</p>
+            <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Director and now <strong>lead over 100 software engineers</strong> across 12 different projects.</p>
             <br></br>
             Take a look at my full resume <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>. Send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>.
           </div>
