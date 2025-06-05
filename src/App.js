@@ -108,7 +108,7 @@ function App() {
           </div>
           <div class="intro-text">
             <p>
-              Hey! I'm Dhruv, and I am a computer science student and software engineer.
+              Hey! I'm Dhruv, and I'm a computer science student and software engineer.
             </p>
             <br></br>
             <p>
@@ -121,7 +121,7 @@ function App() {
             <br></br>
             <p>Previously, I worked as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I supported Nuclear Weapons Programs and worked on digitization and AI projects. Today, I'm working as a SWE intern at <a href="https://www.capitalone.com/" target="_blank" rel="noopener noreferrer">Capital One</a> in their NYC office.</p>
             <br></br>
-            <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Director and now <strong>lead over 80 software engineers</strong> across 10 different projects.</p>
+            <p>On campus, I was Director of <a href="https://www.linkedin.com/company/disruption-lab-at-gies" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, one of the largest and most competitive student software engineering organizations at Illinois. Here, I <strong>led over 80 software engineers</strong> and helped deliver 10 different technical projects to clients each semester.</p>
             <br></br>
             Take a look at my full resume <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>, and feel free to send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>!
           </div>
