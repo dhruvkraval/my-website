@@ -92,7 +92,7 @@ function App() {
           <div className="profile">
             <div className="profile-text">
               <h1>Dhruv Raval</h1>
-              <p>CS + Economics @ <span className="orange-text">University of Illinois at Urbana-Champaign</span></p>
+              <p>Masters of Computer Science @ <span className="orange-text">University of Illinois at Urbana-Champaign</span></p>
               <div className="social-icons">
                 <a href="mailto:contact@dhruvraval.com">
                   <i className="fas fa-envelope"></i>
