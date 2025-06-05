@@ -9,6 +9,16 @@ import DropdownCard from './DropdownCard'; // Import the new component
 
 const experiences = [
   {
+    company: 'Capital One',
+    positions: [
+      {
+        title: 'Software Engineering Intern',
+        dateRange: 'June 2025 — August 2025',
+        description: `Bank Tech Group in New York City`,
+      },
+    ],
+  },
+  {
     company: 'Honeywell',
     positions: [
       {
@@ -30,7 +40,7 @@ const experiences = [
     positions: [
       {
         title: 'Director',
-        dateRange: 'Dec 2024 - Present',
+        dateRange: 'Dec 2024 - July 2025',
         description: `Managing over 100 student SWEs across 12+ technical projects.`,
         skills: ['Blockchain', 'VR', 'AI', 'Leadership'],
       },
@@ -97,21 +107,23 @@ function App() {
             <img src={portrait} alt="Self Portrait" className="profile-picture" />
           </div>
           <div class="intro-text">
-            <p>Hey! I'm Dhruv.</p>
-            <br></br>
             <p>
-              I'm a <strong>Computer Science + Economics</strong> student at UIUC with a 4.0 GPA, graduating in <strong>May 2025</strong> with an intention to pursue a Masters in Computer Science.
+              Hey! I'm Dhruv, and I am a computer science student and software engineer.
             </p>
             <br></br>
             <p>
-            I'm passionate about AI and full stack development, and I love opportunities to work on innovative and impactful projects.
+              I recently graduated with my bachelors in Computer Science + Economics from the University of Illinois at Urbana-Champaign (ILL!), achieving the highest university honor awarded to undergraduate students (top 3% of my graduating class). Now, I am working on my <strong>Masters in Computer Science, graduating in May 2026.</strong>
             </p>
             <br></br>
-            <p>Previously, I worked as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I supported Nuclear Weapons Programs and worked on digitization and AI projects.</p>
+            <p>
+            I'm passionate about AI agents and love working on full stack projects.
+            </p>
             <br></br>
-            <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Director and now <strong>lead over 100 software engineers</strong> across 12 different projects.</p>
+            <p>Previously, I worked as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I supported Nuclear Weapons Programs and worked on digitization and AI projects. Today, I'm working as a SWE intern at <a href="https://www.capitalone.com/" target="_blank" rel="noopener noreferrer">Capital One</a>, in their NYC office.</p>
             <br></br>
-            Take a look at my full resume <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>. Send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>.
+            <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Director and now <strong>lead over 80 software engineers</strong> across 10 different projects.</p>
+            <br></br>
+            Take a look at my full resume <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>, and feel free to send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>!
           </div>
           <br></br>
           <hr></hr>
