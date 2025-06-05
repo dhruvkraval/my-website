@@ -112,14 +112,14 @@ function App() {
             </p>
             <br></br>
             <p>
-              I recently graduated with my bachelors in Computer Science + Economics from the University of Illinois at Urbana-Champaign (ILL!), achieving the highest university honor awarded to undergraduate students (top 3% of my graduating class). Now, I am working on my <strong>Masters in Computer Science, graduating in May 2026.</strong>
+              I recently graduated with my bachelors in CS + Econ from UIUC, graduating at the top 3% of my class. Now, I am working on my <strong>Masters in Computer Science, graduating in May 2026.</strong>
             </p>
             <br></br>
             <p>
             I'm passionate about AI agents and love working on full stack projects.
             </p>
             <br></br>
-            <p>Previously, I worked as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I supported Nuclear Weapons Programs and worked on digitization and AI projects. Today, I'm working as a SWE intern at <a href="https://www.capitalone.com/" target="_blank" rel="noopener noreferrer">Capital One</a>, in their NYC office.</p>
+            <p>Previously, I worked as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I supported Nuclear Weapons Programs and worked on digitization and AI projects. Today, I'm working as a SWE intern at <a href="https://www.capitalone.com/" target="_blank" rel="noopener noreferrer">Capital One</a> in their NYC office.</p>
             <br></br>
             <p>I also bring experience delivering multiple AI solutions to clients from my time in <a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, where I have risen to Director and now <strong>lead over 80 software engineers</strong> across 10 different projects.</p>
             <br></br>
