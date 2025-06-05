@@ -112,7 +112,7 @@ function App() {
             </p>
             <br></br>
             <p>
-              I recently graduated with my bachelors in CS + Econ from UIUC, graduating at the top 3% of my class. Now, I am working on my <strong>Masters in Computer Science, graduating in May 2026.</strong>
+              I recently graduated with my bachelors in CS + Econ from UIUC at the top 3% of my class. Now, I am working on my <strong>Masters in Computer Science, graduating in May 2026.</strong>
             </p>
             <br></br>
             <p>
