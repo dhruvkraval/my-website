@@ -15,6 +15,7 @@ const experiences = [
         title: 'Software Engineering Intern',
         dateRange: 'June 2025 — August 2025',
         description: `Bank Tech Group in New York City`,
+        skills: ['Full Stack Development'],
       },
     ],
   },
@@ -41,7 +42,7 @@ const experiences = [
       {
         title: 'Director',
         dateRange: 'Dec 2024 - July 2025',
-        description: `Managing over 100 student SWEs across 12+ technical projects.`,
+        description: `Managing over 80 student SWEs across 10+ technical projects.`,
         skills: ['Blockchain', 'VR', 'AI', 'Leadership'],
       },
       {
