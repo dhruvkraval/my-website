@@ -109,22 +109,10 @@ function App() {
           </div>
           <div class="intro-text">
             <p>
-              Hey! I'm Dhruv, and I'm a computer science student and software engineer.
+             Computer Science @ Illinois. Prev @ Honeywell, Capital One. Software Engineer.
             </p>
             <br></br>
-            <p>
-              I recently graduated with my bachelors in CS + Econ from UIUC at the top 3% of my class. Now, I am working on my <strong>Masters in Computer Science, graduating in May 2026.</strong>
-            </p>
-            <br></br>
-            <p>
-            I'm passionate about AI agents and love working on full stack projects.
-            </p>
-            <br></br>
-            <p>Previously, I worked as an intern for <a href="https://kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer">Honeywell</a>, where I supported Nuclear Weapons Programs and worked on digitization and AI projects. Today, I'm working as a SWE intern at <a href="https://www.capitalone.com/" target="_blank" rel="noopener noreferrer">Capital One</a> in their NYC office.</p>
-            <br></br>
-            <p>On campus, I was Director of <a href="https://www.linkedin.com/company/disruption-lab-at-gies" target="_blank" rel="noopener noreferrer">Disruption Lab</a>, one of the largest and most competitive student software engineering organizations at Illinois. Here, I <strong>led over 80 software engineers</strong> and helped deliver 10 different technical projects to clients each semester.</p>
-            <br></br>
-            Take a look at my full resume <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>, and feel free to send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>!
+            Take a look at my full resume <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>, and feel free to send me an email @ <a href="mailto:contact@dhruvraval.com">contact@dhruvraval.com</a>.
           </div>
           <br></br>
           <hr></hr>
