@@ -1,141 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.site-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+  background-color: #ffffff;
+}
 
-.App {
+/* ── Nav ── */
+nav {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #edebe6;
-  padding-top: 100px; /* Add some padding to the top of the entire app */
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 0;
+  margin-bottom: 24px;
 }
 
-p{
-  font-family: "Source Code Pro";
-  color:#606060;
+nav .nav-name {
+  font-weight: 700;
+  color: #333;
+  margin-right: 6px;
 }
 
-h1{
-  font-family: "Source Code Pro";
-  color:black;
+nav .nav-sep {
+  color: #aaa;
+  margin: 0 6px;
 }
 
-h2{
-  font-family: "Source Code Pro";
+nav a.nav-link {
+  color: #333;
 }
 
-h3{
-  font-family: "Source Code Pro";
+nav a.nav-link:hover {
+  color: #0969da;
+  text-decoration: none;
 }
 
-h4{
-  font-family: "Source Code Pro";  
+nav a.nav-link.active {
+  color: #0969da;
 }
 
-
-.App-header {
-  width: 100%;
-}
-
-.orange-text {
-  color: #FF5F05;
-}
-
-.container {
-  max-width: 750px;
-  margin: auto;
-  text-align: left;
-  padding: 20px;
-  border-radius: 8px;
-  background-color: #edebe6;
-}
-
-.profile {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* ── Page content ── */
+.page-content h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
   margin-bottom: 20px;
 }
 
-.profile-info {
-  flex: 1; /* Allow profile info to take available space */
-  margin-right: 20px; /* Add some space between the info and the image */
+.page-content p {
+  margin-bottom: 16px;
+  color: #333;
 }
 
-.profile h1 {
-  font-size: 2em;
-  margin: 0;
+/* ── Home ── */
+.home-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 12px;
 }
 
-.profile p {
-  margin: 10px 0;
-  color: #606060;
+.home-bio {
+  flex: 1;
 }
 
-/* top of the screen name */
-.profile-text{
-  color: #606060;
+.home-bio p {
+  margin-bottom: 12px;
+  color: #333;
 }
 
-.intro-text{
-  color:#606060;
-  font-family: 'Source Code Pro';
-}
-
-.profile-text p{
-  color:#606060;
-}
-
-.profile-picture {
-  width: 150px; /* Adjust size as needed */
-  height: auto;
-  padding-left: 15px;
+.home-photo img {
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
+  object-fit: cover;
+  display: block;
 }
 
-.social-icons a {
-  margin-right: 10px;
-  text-decoration: none;
-  font-size: 1.5em;
-  color: #606060;
+.home-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
 }
 
-.social-icons a:hover {
-  color: #0073e6;
+.home-links a {
+  color: #0969da;
 }
 
-.work, .writings {
-  margin-top: 20px;
+.home-links a:hover {
+  text-decoration: underline;
 }
 
-.work h2, .writings h2 {
-  font-size: 1.5em;
+/* ── Experience ── */
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 10px;
+  margin-top: 12px;
 }
 
-.work ul, .writings ul {
-  list-style-type: none;
-  padding: 0;
+.exp-list {
+  list-style: none;
 }
 
-.work li, .writings li {
-  margin: 5px 0;
+.exp-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 3px 0;
+  color: #333;
 }
 
-hr {
-  border: none;
-  height: 1px;
-  background: none;
-  background-image: linear-gradient(to right, #606060 50%, rgba(255, 0, 0, 0) 0%);
-  background-position: top left;
-  background-size: 10px 1px; /* Adjust the size: 10px is the spacing between dots */
-  background-repeat: repeat-x;
-  margin: 20px auto; /* Center the hr element */
+.exp-list li span.exp-location {
+  color: #999;
 }
 
-footer {
-  background-color: #edebe6;
-  text-align: center;
+/* ── List pages (advice / books / research) ── */
+.entry-list {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.entry-list li {
   padding: 10px 0;
+  border-bottom: 1px solid #e6e6e6;
 }
 
-a{
-  color:#FF5F05;
+.entry-list li:last-child {
+  border-bottom: none;
+}
+
+.entry-list .entry-title {
+  color: #333;
+}
+
+.entry-list .entry-title a {
+  color: #0969da;
+}
+
+.entry-list .entry-title a:hover {
+  text-decoration: underline;
+}
+
+.entry-list .entry-note {
+  font-size: 13px;
+  color: #666;
+  margin-top: 2px;
+}
+
+/* ── Mobile ── */
+@media (max-width: 480px) {
+  .home-top {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .home-photo img {
+    width: 80px;
+    height: 80px;
+  }
+
+  nav {
+    gap: 2px 0;
+  }
 }
