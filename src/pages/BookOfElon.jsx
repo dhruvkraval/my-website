@@ -10,7 +10,7 @@ const sections = [
   {
     label: 'Part 1: Pursue Purpose',
     quotes: [
-      'The measure of success in my life is: "How many useful things can I get done?"',
+      'The measure of success in my life is: how many useful things can I get done?',
       'A useful life is worth having lived.',
       'Life is too short to spend it doing something you don\'t like.',
       'Nobody ever changed the world on forty hours a week...With that said, I would say this to twenty-something me: I think there\'s some merit to not being too intense, and enjoying the moment a bit. Occasionally stopping to smell the roses would probably be a good idea.',
@@ -31,7 +31,7 @@ const sections = [
       'Do everything you can to gather great people.',
       'Only exceptional performance constitutes a passing grade.',
       'Failure is essentially irrelevant unless it is catastrophic.',
-      'Failure is a side effect of iteration. I once told a discouraged engineer, "If you can\'t tell me the four ways you fucked something up before you got it right, you weren\'t the one doing the real work."',
+      "Failure is a side effect of iteration. I once told a discouraged engineer, 'If you can't tell me the four ways you fucked something up before you got it right, you weren't the one doing the real work.'",
       'When you get used to losing, you will play each game with less emotion.',
       'The most common mistake of smart engineers is to optimize a thing that should not exist. Simplify as much as possible — delete anything that is unnecessary and make the simplest possible solution.',
       'The only true currency is time.',
